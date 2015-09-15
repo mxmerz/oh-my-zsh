@@ -12,7 +12,7 @@ eval my_lila='$FG[213]'
 PROMPT='%{$reset_color%}%m ${ret_status}%{$fg_bold[green]%}%p%{$fg[cyan]%}%c%{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%} % %{$reset_color%}'
 
 # right prompt
-# RPROMPT='%{$my_gray%} $(emoji-clock)  %*%{$reset_color%}'
+RPROMPT='%{$my_gray%} $(emoji-clock)  %*%{$reset_color%}'
 
 ZSH_THEME_GIT_PROMPT_PREFIX=" git:(%{$fg[red]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
